@@ -1,6 +1,55 @@
 
-body{
+   *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
+    font-family: 'Poppins', sans-serif;
+   } 
+
+header{
+    display: flex;
+    flex-direction: column;
+    
+
+    width: 100%;
+    height: 100vh;
+
+    .contenidoHome {
+
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: 100vh;
+
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        /* LOGO "MARIA GRIMOLDI" */
+
+        h1{
+            margin: 10%;
+            font-weight: 450;
+
+            .logoBold{
+                font-weight: 700;
+            }
+
+            .logoLighter{
+                font-weight: 200;
+            }
+        }
+
+        h2{
+            font-size: smaller;
+            font-weight: 300;
+            margin: 5%;
+        }
+
+        /* FIN LOGO "MARIA GRIMOLDI" */
+        
+    }
+
 }
+
