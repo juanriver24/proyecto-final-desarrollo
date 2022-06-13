@@ -1,8 +1,10 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif; }
 
+/* INICIA HEADER */
 header {
   display: flex;
   flex-direction: column;
@@ -29,3 +31,138 @@ header {
       font-size: smaller;
       font-weight: 300;
       margin: 5%; }
+
+/* FINALIZA HEADER */
+main {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  /*COMIENZA PRIMERA SECCIÓN MAIN */
+  /*FINALIZA PRIMERA Y SEGUNDA SECCIÓN MAIN */
+  /*COMIENZA TERCERA SECCIÓN MAIN */ }
+  main .seccionTexto {
+    padding: 10px; }
+    main .seccionTexto h2 {
+      font-size: 35px;
+      margin-bottom: 1em;
+      margin-left: 20px;
+      margin-right: 20px;
+      color: darkcyan;
+      margin-top: 40px; }
+    main .seccionTexto p {
+      line-height: 25px;
+      margin-top: 1em;
+      margin-bottom: 1em; }
+      main .seccionTexto p strong {
+        line-height: 25px;
+        margin-top: 1em;
+        margin-bottom: 1em; }
+    main .seccionTexto h3 {
+      color: #212020; }
+    main .seccionTexto button {
+      margin-top: 1em;
+      margin-bottom: 1em;
+      border-radius: 0px;
+      font-weight: 500;
+      border-color: black;
+      color: black; }
+  main .seccionEstrategias {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #b7b1b1; }
+    main .seccionEstrategias .cajaIzquierda .bannerEstrategias {
+      width: 100%;
+      height: max-content; }
+    main .seccionEstrategias .cajaIzquierda h3 {
+      transform: translateY(-50%);
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: 5px;
+      color: white;
+      text-shadow: 1px 1px 2px whitesmoke; }
+    main .seccionEstrategias .cajaIzquierda p {
+      font-weight: 500;
+      padding-right: 25px;
+      padding-left: 25px;
+      line-height: 25px;
+      margin-bottom: 1em; }
+    main .seccionEstrategias .cajaIzquierda button {
+      margin-top: 1em;
+      margin-bottom: 1em;
+      border-radius: 0px;
+      font-weight: 500;
+      border-color: black;
+      color: black; }
+  main .cajaDerecha {
+    background-color: whitesmoke; }
+    main .cajaDerecha h2 {
+      font-size: 35px;
+      margin-bottom: 1em;
+      margin-left: 20px;
+      margin-right: 20px;
+      color: darkcyan;
+      line-height: 1,5;
+      letter-spacing: 1px;
+      margin-top: 30px;
+      margin-bottom: 20px; }
+    main .cajaDerecha ul {
+      padding: 30px;
+      margin-bottom: 40px;
+      list-style-type: none; }
+      main .cajaDerecha ul li img {
+        background-color: white;
+        height: 120px;
+        border-radius: 100%;
+        padding: 20px;
+        margin: 10px; }
+
+/*FINALIZA TERCERA SECCIÓN MAIN */
+/*COMIENZA CUARTA SECCIÓN MAIN */
+.seccionNoticias {
+  background-color: #b7b1b1; }
+  .seccionNoticias h2 {
+    font-size: 35px;
+    margin-bottom: 1em;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: darkcyan;
+    margin: 0px;
+    padding-top: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px whitesmoke; }
+  .seccionNoticias .carousel {
+    padding: 30px;
+    border-radius: 30px; }
+    .seccionNoticias .carousel img {
+      border-radius: 30%; }
+    @media (min-width: 768px) {
+      .seccionNoticias .carousel {
+        padding: 60px; } }
+    @media (min-width: 1200px) {
+      .seccionNoticias .carousel {
+        padding: 120px; } }
+    .seccionNoticias .carousel .carousel-control-prev {
+      left: 0px; }
+    .seccionNoticias .carousel .carousel-control-next {
+      right: 0px; }
+    .seccionNoticias .carousel .carousel-indicators {
+      margin-bottom: 0px; }
+    .seccionNoticias .carousel .carousel-caption h5 {
+      font-size: 15px;
+      font-weight: 500; }
+      @media (min-width: 768px) {
+        .seccionNoticias .carousel .carousel-caption h5 {
+          font-size: 30px; } }
+      @media (min-width: 1200px) {
+        .seccionNoticias .carousel .carousel-caption h5 {
+          font-size: 45px; } }
+    .seccionNoticias .carousel .carousel-caption p {
+      font-size: 10px; }
+      @media (min-width: 768px) {
+        .seccionNoticias .carousel .carousel-caption p {
+          font-size: 20px; } }
+      @media (min-width: 1200px) {
+        .seccionNoticias .carousel .carousel-caption p {
+          font-size: 30px; } }

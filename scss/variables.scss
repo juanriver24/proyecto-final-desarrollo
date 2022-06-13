@@ -1,0 +1,24 @@
+$subtitle-color:darkcyan;
+$main-background-color:whitesmoke;
+$estrategias-background-color:rgb(183, 177, 177);
+$color-items-lista:rgb(33, 32, 32);
+
+@mixin subtitle {
+    font-size:35px;
+    margin-bottom: 1em;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: $subtitle-color;
+}
+
+@mixin button-main {
+            margin-top: 1em;
+            margin-bottom: 1em;
+
+            border-radius: 0px;
+            font-weight: 500;
+            
+            border-color: black;
+            color: black;
+}

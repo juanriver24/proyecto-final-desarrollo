@@ -1,10 +1,14 @@
 
+   @import "variables.scss";
+   
    *{
     margin: 0;
     padding: 0;
     
     font-family: 'Poppins', sans-serif;
    } 
+
+/* INICIA HEADER */
 
 header{
     display: flex;
@@ -53,3 +57,204 @@ header{
 
 }
 
+/* FINALIZA HEADER */
+
+main{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    background-color: whitesmoke;
+
+    /*COMIENZA PRIMERA SECCIÓN MAIN */
+
+    .seccionTexto{
+        padding: 10px;
+
+        h2{
+            @include subtitle
+            margin-top: 40px;
+        }
+
+        p{
+         line-height: 25px;
+         margin-top: 1em;
+         margin-bottom: 1em;
+
+         strong{
+            line-height: 25px;
+            margin-top: 1em;
+            margin-bottom: 1em;
+         }
+        }
+
+        h3{
+            color: $color-items-lista;
+        }
+
+        button{
+            @include button-main;
+        }
+    }
+
+    /*FINALIZA PRIMERA Y SEGUNDA SECCIÓN MAIN */
+
+    /*COMIENZA TERCERA SECCIÓN MAIN */
+
+    .seccionEstrategias{
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+
+        background-color:$estrategias-background-color;
+
+        .cajaIzquierda{
+
+            .bannerEstrategias{
+                width: 100%;
+                height: max-content;
+            }
+    
+            h3{
+                transform: translateY(-50%);
+                
+                font-size: 40px;
+                font-weight:700;
+                letter-spacing: 5px;
+                color: white;
+                text-shadow: 1px 1px 2px $main-background-color;
+            }
+    
+            p{
+                font-weight: 500;
+                padding-right: 25px;
+                padding-left: 25px;
+                line-height: 25px;
+                margin-bottom: 1em;
+            }
+
+            button{
+                @include button-main;
+            }
+
+            }
+
+        }
+        
+        .cajaDerecha{
+            background-color:$main-background-color;
+
+                        h2{
+                            @include subtitle;
+
+                            line-height:1,5;
+                            letter-spacing: 1px;
+
+                            margin-top: 30px;
+                            margin-bottom: 20px;
+                         }
+
+                        ul{
+                            padding: 30px;
+                            margin-bottom: 40px;
+                            list-style-type: none;
+
+                            li{
+                                img{
+                                    background-color: white;
+                                    height: 120px;
+
+                                    border-radius: 100%;
+
+                                    padding: 20px;
+                                    margin: 10px;
+                                }
+                            }
+                        }
+
+                    } 
+    }
+
+    /*FINALIZA TERCERA SECCIÓN MAIN */
+
+    /*COMIENZA CUARTA SECCIÓN MAIN */
+
+    .seccionNoticias{
+
+        background-color: $estrategias-background-color;
+
+                    h2{
+
+                        @include subtitle
+
+                        margin: 0px;
+                        padding-top: 30px;
+                        color: white;
+                        text-shadow: 1px 1px 2px $main-background-color;
+
+                        
+                    }
+
+                .carousel{
+
+                    img{
+                        border-radius: 30%;
+                    }
+
+                    padding: 30px;
+                    border-radius: 30px;
+
+                    @media (min-width:768px){
+                        padding: 60px;
+                    }
+
+                    @media (min-width:1200px){
+                        padding: 120px;
+                    }
+
+
+                        .carousel-control-prev{
+                            left:0px;
+                        }
+
+                        .carousel-control-next{
+                            right:0px;
+                        }
+
+                        .carousel-indicators{
+                            margin-bottom: 0px;
+                        }
+
+                        .carousel-caption{
+                            h5{
+                                font-size: 15px;
+                                font-weight: 500;
+    
+                                @media (min-width:768px){
+                                    font-size: 30px;
+                                }
+    
+                                @media (min-width:1200px){
+                                    font-size: 45px;
+                                }
+                            }
+    
+                            p{
+                                font-size: 10px;
+    
+                                @media (min-width:768px){
+                                    font-size: 20px;
+                                }
+    
+                                @media (min-width:1200px){
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+                    }
+
+                    
+               
+    
+}
