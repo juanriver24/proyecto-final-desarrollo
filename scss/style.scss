@@ -25,6 +25,10 @@ header{
         justify-content: center;
         align-items: center;
 
+        @media (max-width:1200px){
+            height: 75vw;
+        }
+
         /* LOGO "MARIA GRIMOLDI" */
 
         h1{
@@ -32,6 +36,10 @@ header{
             font-weight: 450;
 
             color: white;
+
+            @media (min-width:576px){
+                font-size: 62px;
+            }
 
             .logoBold{
                 font-weight: 700;
@@ -46,8 +54,14 @@ header{
             font-size: smaller;
             font-weight: 300;
             margin: 5%;
+            margin-top: 0px;
+            font-size:8px;
 
             color: white;
+
+            @media (min-width:576px){
+                font-size: 18px;
+            }
         }
 
         /* FIN LOGO "MARIA GRIMOLDI" */
@@ -64,4 +78,9 @@ header{
     z-index: -1;
 
     opacity: 90%;
+
+    @media (max-width:992px){
+        height: 75vw;
+        bottom: auto;
+    }
 }

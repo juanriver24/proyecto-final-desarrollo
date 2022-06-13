@@ -18,10 +18,16 @@ header {
     align-items: center;
     /* LOGO "MARIA GRIMOLDI" */
     /* FIN LOGO "MARIA GRIMOLDI" */ }
+    @media (max-width: 1200px) {
+      header .contenidoHome {
+        height: 75vw; } }
     header .contenidoHome h1 {
       margin: 10%;
       font-weight: 450;
       color: white; }
+      @media (min-width: 576px) {
+        header .contenidoHome h1 {
+          font-size: 62px; } }
       header .contenidoHome h1 .logoBold {
         font-weight: 700; }
       header .contenidoHome h1 .logoLighter {
@@ -30,7 +36,12 @@ header {
       font-size: smaller;
       font-weight: 300;
       margin: 5%;
+      margin-top: 0px;
+      font-size: 8px;
       color: white; }
+      @media (min-width: 576px) {
+        header .contenidoHome h2 {
+          font-size: 18px; } }
 
 .backgroundVideo {
   position: absolute;
@@ -38,3 +49,7 @@ header {
   bottom: 0;
   z-index: -1;
   opacity: 90%; }
+  @media (max-width: 992px) {
+    .backgroundVideo {
+      height: 75vw;
+      bottom: auto; } }
