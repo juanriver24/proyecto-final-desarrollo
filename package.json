@@ -1,7 +1,6 @@
 {
   "name": "proyecto-final",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "ajv": "^6.12.6",
@@ -303,5 +302,6 @@
   "bugs": {
     "url": "https://github.com/juanriver24/proyecto-final-desarrollo/issues"
   },
-  "homepage": "https://github.com/juanriver24/proyecto-final-desarrollo#readme"
+  "homepage": "https://github.com/juanriver24/proyecto-final-desarrollo#readme",
+  "description": ""
 }

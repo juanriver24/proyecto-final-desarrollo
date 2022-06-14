@@ -187,3 +187,51 @@ main {
       @media (min-width: 1200px) {
         .seccionNoticias .carousel .carousel-caption p {
           font-size: 30px; } }
+
+/* FINALIZA MAIN */
+/* INICIA FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: whitesmoke; }
+  footer .contenidoFooter h3 {
+    font-size: 24px;
+    font-weight: 700; }
+  footer .contenidoFooter h4 {
+    font-size: 24px;
+    font-weight: 700; }
+  footer .contenidoFooter p {
+    font-size: 16px;
+    font-weight: 400; }
+  footer .contenidoFooter .llamarAhora button {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0px;
+    font-weight: 500;
+    border-color: black;
+    color: black;
+    margin: 20px;
+    border-color: green;
+    color: green; }
+  footer .contenidoFooter .direccion p {
+    margin: 10px; }
+  footer .contenidoFooter .direccion button {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0px;
+    font-weight: 500;
+    border-color: black;
+    color: black;
+    margin: 20px;
+    margin-top: 0px;
+    border-color: #8d8d20;
+    color: #8d8d20; }
+  footer .redesSociales {
+    margin: 20px; }
+    footer .redesSociales img {
+      margin-left: 30px;
+      margin-right: 30px; }
