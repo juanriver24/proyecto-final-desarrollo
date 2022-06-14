@@ -13,6 +13,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <link rel="shortcut icon" href="img/medium-logo-24.png" type="logo-M">
 </head>
 
 <body>
@@ -145,7 +147,7 @@
                   <div class="carousel-item">
                     <img src="img/padre-e-hijo.jpg" class="d-block w-100" alt="padre-e-hijo">
                     <div class="carousel-caption ">
-                      <h5>5 Recomendaciones para llevar adelante casos Familiares.</h5>
+                      <h5>5 Tips para llevar adelante casos Familiares.</h5>
                       <p class="d-none d-md-block">La Dra. Grimoldi trae 5 consejos ante este tipo de situaciones.</p>
                     </div>
                   </div>
@@ -206,6 +208,34 @@
         <section class="contenidoFooter">
           <h3>Contacto</h3>
           <!-- AQUI VA FORMULARIO DE CONTACTO -->
+
+    <div class="container">
+        <form id="survey-form" autocomplete="off"> 
+          <!--NOMBRE-->
+          <div class="div form-group">
+            <label id="name-label" for="name">Nombre y apellido</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Ingresá tu nombre y apellido completo" required />
+          <br>
+          <!--EMAIL-->
+          <div class="div form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Ingresá tu email" required />
+          <br>  
+          
+         <!--MENSAJE-->
+         <div class="div form-group">
+           <p>Mensaje</p>
+           <textarea id="mensaje" class="input-textarea" name="mensaje" placeholder="Contanos detalladamente sobre tu problema"></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button"> Enviar </button>
+          </div>
+      
+               <p class="ultimo">Nos contactaremos a la brevedad.   </p>
+        </form>
+      
+      </div>
         </section>
               
     </footer>
